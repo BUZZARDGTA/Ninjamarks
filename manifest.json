@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "NinjaMarks",
+  "version": "1.0",
+  "description": "Elevate your bookmark game with NinjaMarks! URL Sensei not only detects broken links but also tracks down and revitalizes bookmarks with changed domains or URLs, ensuring your online resources stay current. The Duplication Slayer ensures a clutter-free collection by swiftly identifying and removing duplicates. Master bookmark management with lightning speed!",
+  "developer": {
+    "name": "IB_U_Z_Z_A_R_Dl",
+    "url": "https://github.com/Illegal-Services"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Open NinjaMarks!",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "64": "icons/icon64.png",
+      "96": "icons/icon96.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+        "background/background.js"
+    ],
+    "type": "module"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "NinjaMarks@id",
+      "strict_min_version": "100.0"
+    }
+  }
+}

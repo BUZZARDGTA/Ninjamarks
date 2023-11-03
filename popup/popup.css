@@ -1,0 +1,33 @@
+body {
+  width: 200px;
+}
+
+.toolbox {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #005bbf;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 5px;
+}

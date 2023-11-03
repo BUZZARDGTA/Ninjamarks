@@ -1,0 +1,49 @@
+/* Global CSS file used for styling the different pages of the website */
+
+html, header, body, footer {
+  color: #ffffff;
+  background-color: #363636;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 13px;
+  color: #c8c8c8;
+}
+
+.content {
+  font-weight: bold;
+}
+
+.illegal-services-logo {
+  width: 128px;
+  height: 128px;
+}
+
+.ico {
+  line-height: 1;
+  margin: 10px;
+  font-size:25px;
+  width: 1em;
+  height: 1em;
+  overflow: visible;
+}
+.ico.illegal-services {
+  content: url("../svgs/globe.svg");
+}
+.ico.github {
+  content: url("../svgs/github.svg");
+}
+.ico.telegram {
+  content: url("../svgs/telegram.svg");
+}
+.ico.youtube {
+  content: url("../svgs/youtube.svg");
+}
+.ico.twitch {
+  content: url("../svgs/twitch.svg");
+}
