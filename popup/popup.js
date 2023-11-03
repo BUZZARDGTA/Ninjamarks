@@ -2,8 +2,10 @@ import { closeBookmarkedTabs } from "/js/closeBookmarkedTabs.js";
 import { closeNotBookmarkedTabs } from "/js/closeNotBookmarkedTabs.js";
 
 document.addEventListener("DOMContentLoaded", async function () {
-  const htmlScanWebsites = document.getElementById("scan-websites");
-  const htmlScanDuplicates = document.getElementById("scan-duplicates");
+  /* TODO:
+    const htmlScanWebsites = document.getElementById("scan-websites");
+    const htmlScanDuplicates = document.getElementById("scan-duplicates");
+  */
   const htmlCloseBookmarkedTabs = document.getElementById(
     "close-bookmarked-tabs"
   );
@@ -11,12 +13,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     "close-not-bookmarked-tabs"
   );
 
-  htmlScanWebsites.addEventListener("click", async function () {
-    await openOrFocusHTMLPage("html/scanWebsites.html");
-  });
-  htmlScanDuplicates.addEventListener("click", async function () {
-    await openOrFocusHTMLPage("html/scanDuplicates.html");
-  });
+  /* TODO:
+    htmlScanWebsites.addEventListener("click", async function () {
+      await openOrFocusHTMLPage("html/scanWebsites.html");
+    });
+    htmlScanDuplicates.addEventListener("click", async function () {
+      await openOrFocusHTMLPage("html/scanDuplicates.html");
+    });
+  */
   htmlCloseBookmarkedTabs.addEventListener("click", closeBookmarkedTabs);
   htmlCloseNotBookmarkedTabs.addEventListener("click", closeNotBookmarkedTabs);
 });

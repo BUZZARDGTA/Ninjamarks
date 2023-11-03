@@ -1,4 +1,5 @@
 .devfolder/
+.vscode/
 node_modules/
 .eslintrc.js
 package.json
