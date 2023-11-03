@@ -2,7 +2,7 @@
 
 ## Project Status
 
-🚧 **This project is currently under heavy development and will progressively receive new feature updates over the time.** 🚧
+🚧 **Project under active development. Expect new features updates over the time.** 🚧
 
 ## Description
 
