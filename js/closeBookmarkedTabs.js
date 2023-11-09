@@ -2,8 +2,6 @@ export { closeBookmarkedTabs };
 
 /**
  * Close all opened tabs that are bookmarked.
- * @returns {Promise<void>}
- * @see {@link https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/remove `tabs.remove`} on MDN
  */
 async function closeBookmarkedTabs() {
   const tabIdsToClose = [];
@@ -24,8 +22,7 @@ async function closeBookmarkedTabs() {
 /**
  * Function that checks whenever a bookmark's URL is bookmarked or not.
  * @param {string} url - the url to check
- * @returns {Promise<boolean|undefined>} `true` if bookmarked; otherwise `false`. Can also be `undefined` if there was an error while searching for the url.
- * @see {@link https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/search `bookmarks.search`} on MDN
+ * @returns `true` if bookmarked; otherwise `false`. Can also be `undefined` if there was an error while searching for the url.
  */
 async function isBookmarkURLBookmarked(url) {
   try {
