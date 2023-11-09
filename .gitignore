@@ -1,9 +1,9 @@
 .devfolder/
 .vscode/
-node_modules/
+.prettierrc.json
 .eslintrc.js
+node_modules/
 package.json
 package-lock.json
-.prettierrc
 Ninjamarks.zip
 compile.bat
