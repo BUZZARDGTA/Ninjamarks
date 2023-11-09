@@ -1,5 +1,4 @@
 .devfolder/
-.vscode/
 .prettierrc.json
 .eslintrc.js
 node_modules/
