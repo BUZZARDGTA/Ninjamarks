@@ -1,5 +1,6 @@
 .devfolder/
 .prettierrc.json
+.prettierignore
 .eslintrc.js
 node_modules/
 package.json
